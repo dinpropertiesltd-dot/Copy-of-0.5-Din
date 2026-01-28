@@ -1,0 +1,8 @@
+{
+  "name": "Copy of 0.5 Din",
+  "description": "A comprehensive real estate customer portal featuring property dashboards, detailed account statements, admin management, and automated notifications.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
