@@ -258,7 +258,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                 ) : (
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-1.5 md:col-span-2">
-                      <label className="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] px-1">Legal Full Name</label>
+                      <label className="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] px-1">Full Name</label>
                       <div className="relative">
                         <UserIcon className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                         <input
@@ -272,7 +272,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                       </div>
                     </div>
                     <div className="space-y-1.5">
-                      <label className="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] px-1">Primary CNIC</label>
+                      <label className="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] px-1"> CNIC</label>
                       <div className="relative">
                         <Fingerprint className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
                         <input
